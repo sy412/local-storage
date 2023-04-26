@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로컬스토리지 메모장</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>메모장</h1>
+        <textarea name="memo" id="content" cols="30" rows="10"></textarea>
+        <button onclick="saveNote()">+</button>
+      </section>
+
+      <!-- <button id="delete">x</button> -->
+      <section id="display"></section>
+    </main>
+    <script src="localStorage.js"></script>
+  </body>
+</html>
